@@ -1,0 +1,41 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: arial;	
+}
+#mainPage{
+	width: 100%;
+
+}
+.clearfix{
+	overflow: hidden;
+	clear: both;
+
+}
+header{
+	background-color: #142633;
+	height: 80px;
+	margin: 0 auto
+	border-bottom: solid 1px red;
+}
+#mainHeader{
+	width: 990px;
+	height: 90px;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+#mainHeader h1 a{
+	text-decoration: none; 
+	color: white;
+	font-size: 36px;
+	float: left;
+}
+#login{
+	float: right;
+}
+#login label {
+	color: white;
+	font-size: 12px;
+}
